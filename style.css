@@ -1,0 +1,177 @@
+body {
+
+  font-family: 'Segoe UI', Arial, sans-serif;
+
+  margin: 0; padding: 0;
+
+  background: #f2f4f8;
+
+  color: #222;
+
+}
+
+header {
+
+  background: #1a1a2e;
+
+  padding: 1em 0;
+
+}
+
+nav ul {
+
+  list-style: none; display: flex; justify-content: center; margin: 0; padding: 0;
+
+}
+
+nav ul li {
+
+  margin: 0 1.5em;
+
+}
+
+nav ul li a {
+
+  color: #e94560; text-decoration: none;
+
+  font-weight: bold;
+
+  transition: color 0.3s;
+
+}
+
+nav ul li a:hover {
+
+  color: #fff;
+
+}
+
+#hero {
+
+  background: linear-gradient(120deg, #0f3460 60%, #e94560 100%);
+
+  color: #fff;
+
+  padding: 4em 0 3em 0;
+
+  text-align: center;
+
+}
+
+#hero button {
+
+  margin-top: 1.5em;
+
+  padding: 0.75em 2em;
+
+  background: #e94560;
+
+  color: #fff; border: none; border-radius: 24px;
+
+  font-size: 1.1em;
+
+  cursor: pointer;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.11);
+
+  transition: background 0.3s;
+
+}
+
+#hero button:hover {
+
+  background: #fff; color: #0f3460;
+
+}
+
+section {
+
+  max-width: 720px;
+
+  margin: 3em auto;
+
+  padding: 2em;
+
+  background: #fff;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+
+}
+
+h2 {
+
+  color: #0f3460;
+
+  margin-bottom: 1.1em;
+
+}
+
+.project {
+
+  padding: 1em; margin-bottom: 1.7em; border-left: 5px solid #e94560;
+
+  background: #f7f7f7; border-radius: 6px;
+
+  transition: box-shadow 0.3s;
+
+}
+
+.project:hover {
+
+  box-shadow: 0 2px 12px rgba(233,69,96,0.14);
+
+}
+
+form {
+
+  display: flex; flex-direction: column; gap: 1em;
+
+}
+
+input, textarea {
+
+  font-size: 1em; padding: 0.5em;
+
+  border-radius: 8px; border: 1px solid #ddd;
+
+}
+
+button[type="submit"] {
+
+  background: #1a1a2e;
+
+  color: #fff;
+
+  border: none; padding: 0.7em 1.8em;
+
+  border-radius: 24px; font-size: 1em; cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+
+  background: #e94560;
+
+}
+
+footer {
+
+  background: #1a1a2e; color: #fff; padding: 1em 0;
+
+  text-align: center;
+
+  margin-top: 3em;
+
+}
+
+@media (max-width: 768px) {
+
+  section { padding: 1em; }
+
+  nav ul { flex-direction: column; }
+
+  #hero { padding: 2em 0; }
+
+}
